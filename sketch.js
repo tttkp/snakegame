@@ -71,7 +71,7 @@ function sendTheMessage() {
     // if they did, save their name to the variable "you"
     you = nameInput.value();
     // load a new page when you press submit
-    window.location.href = "/../snake/index.html?name=" + you + "&r=" + redVal + "&g=" + greenVal + "&b=" + blueVal;
+    window.location.href = "/../https://tttkp.github.io/snake/index.html?name=;&r=255&g=255&b=255" + you + "&r=" + redVal + "&g=" + greenVal + "&b=" + blueVal;
 
   } else {
     // if they have no entered their name, create an alert and ask them to enter their name
